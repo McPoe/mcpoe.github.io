@@ -1,0 +1,337 @@
+html{
+	overflow-x:hidden;
+}
+.fondo{
+	background-image:url(../img/petbio-dog.jpg);
+	min-height:350px;
+	background-size:cover;
+	background-position:center;
+}
+
+.gray{
+	background-color:#463D42;
+	background-attachment:;
+	background-size:cover;
+	height: auto;
+}
+
+.logo{
+	margin-left: 45%;
+	margin-top: -3%;
+	padding-bottom: 100px;
+	position: absolute;
+	animation-duration: 3s;
+	animation-name: slideIn;
+}
+
+.font{
+	font-size:39px;
+	color: white !important;
+	text-align: center;
+	padding-top:4.5em;
+}
+
+.text-white{
+	color:#fff;
+}
+
+/*aqui es el enlace del boton */
+.hover{
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode:forwards;
+   	animation-duration: 1s;  
+   	animation-fill-mode:fordwards;   
+}
+
+.hover:hover{
+    cursor:pointer;
+    -webkit-animation-name: hoverAnim;
+    animation-name: hoverAnim;
+}
+
+button.space{
+	margin-top: 1em;
+	margin-bottom: 3em;
+}
+
+/*CÓDIGO LUISA*/
+.bginfo{
+	background-color: #F6F7F1 !important;
+	background-attachment:;
+	background-size:cover;
+	height: auto;
+}
+
+.title{
+	font-weight: bold;
+	font-size: 2.3em;
+}
+
+.subtitle{
+	font-size: 2em;
+	margin-top: -.5em;
+}
+
+hr.linea{
+	max-width: 22.5em;
+	margin-top: -1em;
+	height: auto;
+	border:solid .2em;
+	border-color: #70b262;
+}
+
+div.space{
+	margin-top: 5em;
+	margin-bottom: 3em;
+}
+
+.bginfo2{
+	 background-color: #FFFFFF;
+	 max-width: 83%;
+	 height: auto;
+	 margin: 7% 0 0 -.5% ;
+	 padding: 0 7% 3% 7%
+}
+
+.hands{
+	margin-top: 3em;
+	padding-bottom: 5%;
+	width: 100%;
+    height: auto;
+}
+
+/* Iconos de zona de informaciòn*/
+
+div .marg-top8 h2{
+	 font-size: 1.4em;
+	 margin: -5% 0 0 5%;
+}
+.icon{
+	 width: 7%;
+     margin-left: -6%;
+     padding-top: 8%;
+}
+
+.bullets{
+	font-weight: bold;
+	color: #050607;
+}
+.marg-top8{
+	 margin-top: -8%;
+}
+
+div .marg-top8 p{
+	 font-size: 1.3em;
+     color: #885436;
+}
+
+.marg-tl{
+     margin-top: 3%;
+     margin-left: 5%
+}
+
+.bggreen{
+     background-color: #70b262;
+     width:100% ;
+     height: auto;
+}
+
+.textog{ /*Texto sección verde*/
+	color:white !important;
+	font-size: 3.6em;
+}
+
+p.space{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+*{
+	text-decoration: none;
+	color: #635959;
+}
+
+.box1{
+	background-color: #F6F7F1;
+    width: 100%;
+	height: auto;
+}
+
+.boxinfo{
+	margin-top: 10%;
+	padding-left: 10%;
+}
+
+.info{
+	color: #2c3e50;
+	font-size: 28px;
+}
+
+.checks{
+	padding-left: 10%;
+	padding-bottom: 3em
+}
+
+ul{
+	font-size: 20px;
+}
+
+li{
+	list-style-image:url(../img/check.svg);
+	padding-top: 3%;
+	padding-left: 4%
+}
+
+.nav{ 
+	float: left;
+	width: 4em;
+}
+.info2{
+	color: #2c3e50;
+	font-size: 28px;
+	font-weight: bold;
+}
+.hand{
+	width: 110%;
+	height: auto;
+	margin-left: 30%;
+}
+
+.b{
+	 color: #d1a96c
+}
+
+.box2{
+     background-color: #463D42;
+     width:100% ;
+     height: auto;
+}
+
+.placa {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	margin-top: -6em;
+	overflow: visible;
+}
+
+p.space{
+	margin-bottom: 2em;
+}
+
+.box3{
+     background-color: #FFF;
+     width:100% ;
+     height: auto;
+}
+
+.buy{
+	font-size: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.price{
+	background-color: #EDEDDE;
+    color: #635959;
+    margin-left: -15px;
+    padding: 11px 14px 14px 16px;
+    font-size: 15px;
+    border-radius: 6px;
+}
+.raya{
+	border-left: 3px solid #EDEDDE;
+}
+.comprab{
+	line-height: 1.467;
+	padding: 8px 12px;
+	height: 42px;
+	border: 2px solid #EDEDDE;
+	border-radius: 6px;
+}
+.precio{
+	background-color: #EDEDDE;
+	border: 2px solid #EDEDDE;
+	color: #635959;
+	padding: 10px 12px;
+	font-size: 15px;
+	text-align: center;
+}
+.description{
+	margin: 30px;
+	font-size: 14px;
+	color: #635959;
+	line-height: 23px;
+}
+
+.note{
+	font-size: 1.2em;
+	color: #B6B0A7 !important;
+	margin-top: .5em;
+}
+
+#mininfo{
+	margin: 2.2em 4em 2.7em 4em;
+}
+
+.box4{
+    background-color: #EDEDDE;
+    width:100% ;
+    height: auto;
+}
+
+.tira{
+	margin-top: 3em;
+}
+#wayra{
+	width: 60%;
+	height: 60%;
+	padding-top: 25px;
+}
+#telef{
+	width: 50%;
+	height: 50%;
+}
+#gyd{
+	width: 60%;
+	height: 60%;
+	padding-top: 10px;
+}
+footer{
+	background-color: #DFDFC8;
+	height: auto;
+	padding-top: 45px;
+}
+#underline{
+	text-decoration: underline;
+}
+.caja{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin-left: -5px;
+	border-style: groove;
+	border-width: 1px;
+}
+div.caja:hover{
+	background-color: #011A60;
+}
+.caja2{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin-left: -5px;
+	border-style: groove;
+	border-width: 1px;
+}
+div.caja2:hover{
+	background-color: #00C4EB;
+}
+.ico{
+	width: 50%;
+	height: 50%;
+	margin-top: 33%;
+}
