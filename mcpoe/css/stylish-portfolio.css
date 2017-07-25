@@ -249,6 +249,14 @@ h1, h3{
 .img-portfolio:hover {
     opacity: 0.8;
 }
+/*News */
+.divloco {
+   transition: all 2s ease-in-out;
+}
+
+.divloco:hover, div.hover_effect {
+    transform: rotate(540deg) scale(-.7,-.7);
+}
 
 /* Call to Action */
 
@@ -402,7 +410,7 @@ fieldset[disabled] .btn-send.active {
     color: #000;
 }
 div#ico:hover{
-    background-color: #011A60;
+    background: linear-gradient(#3b5998, #6d84b4);
     color: #FFF;
 }
 #ico2{
@@ -416,7 +424,7 @@ div#ico:hover{
     color: #000;
 }
 div#ico2:hover{
-    background-color: #00C4EB;
+    background: linear-gradient(#00aced, #1dcaff);
     color: #FFF;
 }
 #ico3{
@@ -430,9 +438,25 @@ div#ico2:hover{
     color: #000;
 }
 div#ico3:hover{
-    background-color: #FF2219;
+    background: linear-gradient(#8a3ab9, #cd486b, #cd486b, #fbad50, #fccc63);
     color: #FFF;
 }
+
+#ico4{
+    padding-top: 2.5em;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-style: groove;
+    border-width: .2em;
+    border-radius: 50%;
+    color: #000;
+}
+div#ico4:hover{
+    background: linear-gradient(#075e54, #128c7e);
+    color: #FFF;
+}
+
 .big-text{
     font-size: 1.6em;
 }
@@ -447,16 +471,79 @@ div#ico3:hover{
     text-align: justify;
 }
 #selfie{
-    margin-top: 8em;
+    margin-top: 5em;
 }
 
 .pbig{
     font-size: 1.5em;
 }
+
+.pmiddle{
+    font-size: 1.2em;
+}
+
+.subtle{
+    font-size: 1.7em;
+}
+
 .circule:hover{
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+}
+
+.circule:hover, div.hover_effect {
+    transform: rotate(720deg);
+    clip:rect(0px, 150px, 0px, 150px);
+    border-radius: 50%;
+}
+
+.mypic {
+    position: relative;
+    width: 100%;
+}
+
+.imgen {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middles {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.mypic:hover .imgen {
+  opacity: 0.3;
+}
+
+.mypic:hover .middles {
+  opacity: 1;
+}
+
+.texta {
+  background-color: #3B253F;
+  color: white;
+  font-size: 28px;
+  font-family: 'Montez', cursive;
+  padding: 64px 32px;
+  border-radius: 50%;
+}
+
+.finite {
+  color: #3b253f;
+  font-size: 5em;
+  font-family: 'Montez', cursive;
+  margin-bottom: -50px;
 }
 
 .fear:hover {  
