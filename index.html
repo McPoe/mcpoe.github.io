@@ -1,28 +1,385 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>¡McPoe! Web Designer Experience</title>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <meta name="description" content="Egresada de Laboratoria México. Desarrollo y diseño de sitios web responsivos con base HTML, CSS y JS. Creatividad e innovación sin límites." />
-        <meta name="keywords" content="web design, desarrollo web, efectos, css, html, paginas web, creatividad, Laboratoria" />
-        <meta name="author" content="Codrops" />
-        <link rel="shortcut icon" href="ball.ico"> 
-        <link rel="stylesheet" type="text/css" href="css/demo.css" />
-        <link rel="stylesheet" type="text/css" href="css/style2.css" />
-		<!--[if lt IE 10]>
-				<link rel="stylesheet" type="text/css" href="css/style2IE.css" />
-		<![endif]-->
-    </head>
-    <body>
-        <div class="container">
-			<div class="sp-container">
-				<div class="sp-globe"></div>
-				<h2 class="frame-1">Bienvenido a la Experiencia Web</h2>
-				<h2 class="frame-5"><span>Cree</span><span>-</span> <span>Imagina</span><span>-</span> <span>Crea</span></h2>
-				<a class="sp-circle-link" href="mcpoe/index.html" id="btnme">McPoe</a>
-			</div>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Egresada de Laboratoria México. Desarrollo y diseño de sitios web responsivos con base HTML, CSS y JS. Creatividad e innovación sin límites.">
+    <meta name="author" content="Maciel Porraz">
+
+    <title>¡McPoe! Web Designer Experience</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet" type="text/css">
+
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="icon" href="ball.ico">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<!--MENÚ DE NAVEGACIÓN -->
+
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars fa-2x"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times fa-2x"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" id="echa" onclick = $("#menu-close").click(); >Echa un Vistazo</a>
+            </li>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); >Inicio</a>
+            </li>
+            <li>
+                <a href="#skills" onclick = $("#menu-close").click(); >Aprendido</a>
+            </li>
+            <li>
+                <a href="#proyectos" onclick = $("#menu-close").click(); >Proyectos</a>
+            </li>
+            <li>
+                <a href="#about" onclick = $("#menu-close").click(); >¿Quién soy?</a>
+            </li>
+            <li>
+                <a href="#contact" onclick = $("#menu-close").click(); >Contáctame</a>
+            </li>
+        </ul>
+    </nav>
+
+<!--INTRO -->
+
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1 id="title">McPoe</h1>
+            <h3>Web Designer Experience</h3>
+            <br>
         </div>
-    </body>
+    </header>
+
+<!--CITAS (DE FRASES, NO DE OTRAS)-->
+
+    <section id="skills" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>“¿Mi más grande motivación?</h2>
+                    <p class="lead">Seguir retándome a mí misma.<br> Todos los días estoy aprendiendo algo nuevo”.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--LO APRENDIDO-->
+
+    <section class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12 col-md-12">
+                    <h2 class="subtitulo">Aprendido</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-item">
+                            	<span>
+                            		<img class="imogen img-responsive" src="img/html5.png" alt="html logo">
+                            	</span>
+                                <h4>
+                                    <strong>HTML</strong>
+                                </h4>
+                                <p class="pmiddle">¡Oh, bello lenguaje de maquetación!</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-item">
+                                <span>
+                                	<img class="imogen img-responsive" src="img/css.png" alt="css logo">
+	                            </span>
+                                <h4>
+                                    <strong>CSS</strong>
+                                </h4>
+                                <p class="pmiddle">Estilo, color, talacha y refacciones.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-item">
+                                <span>
+                            		<img class="imogen img-responsive" src="img/jquery.png" alt="jquery logo">
+                            	</span>
+                                <h4>
+                                    <strong>jQuery</strong>
+                                </h4>
+                                <p class="pmiddle">¡Sube, baja, muévete, actívate!.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-item">
+                                <span>
+                            		<img class="imogen img-responsive" src="img/js.png" alt="javascript logo">
+                            	</span>
+                                <h4>
+                                    <strong>Javascript</strong>
+                                </h4>
+                                <p class="pmiddle">Me encargo de animar tu fiesta... ¡y sin costo extra!</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="service-item">
+                                    <span>
+                                        <img class="imogen img-responsive" src="img/bootstrap.png" alt="bootstrap logo">
+                                    </span>
+                                    <h4>
+                                        <strong>Bootstrap</strong>
+                                    </h4>
+                                    <p class="pmiddle">No es sólo copiar y pegar, es darle tu propio estilo.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="service-item">
+                                    <span>
+                                        <img class="imogen img-responsive" src="img/materialize.png" alt="materialize logo">
+                                    </span>
+                                    <h4>
+                                        <strong>Materialize</strong>
+                                    </h4>
+                                    <p class="pmiddle">¡No soy la competencia de Bootstrap! Bueno... si, pero poquito.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="service-item">
+                                    <span>
+                                        <img class="imogen img-responsive" src="img/sass.png" alt="sass logo">
+                                    </span>
+                                    <h4>
+                                        <strong>Sass</strong>
+                                    </h4>
+                                    <p class="pmiddle">Tu CSS nunca había sido tan divertido como lo es conmigo.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="service-item">
+                                    <span>
+                                        <img class="imogen img-responsive" src="img/github.png" alt="github logo">
+                                    </span>
+                                    <h4>
+                                        <strong>GitHub</strong>
+                                    </h4>
+                                    <p class="pmiddle">¿Hay algo mejor que compartir el conocimiento?</p>
+                                </div>
+                            </div>
+                        </div>
+                    <hr class="small">
+                    <h2 class="subtitulo">Diseño, Marketing, Social Media, UX.</h2>
+                    <h3 class="subtitulo">Y lo que falta por aprender...</h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!--IDEAS-->
+
+    <aside id="proyectos" class="callout">
+        <div class="text-vertical-center">
+            <h1>La Magia de Innovar</h1>
+        </div>
+    </aside>
+
+<!--PROYECTOS -->
+
+    <section class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 class="subtitulo">Algunos de mis bebés ❤</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h4 class="subtle">Bootstrap y Diseño</h4>
+                            <div class="portfolio-item divloco">
+                                <a href="../mcpoe/proyectos/ecomunidad/index.html" target="_blank">
+                                    <img class="img-portfolio img-responsive fear" src="img/ecomunidad.jpg" alt="sitio web ecomunidad">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h4 class="subtle">Prototipo para Start Up</h4>
+                            <div class="portfolio-item divloco">
+                                <a href="../mcpoe/proyectos/petbioresponsive/index.html" target="_blank">
+                                    <img class="img-portfolio img-responsive fear" src="img/petbio.png" alt="sitio web petbio">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h4 class="subtle">Trabajando con jQuery</h4>
+                            <div class="portfolio-item divloco">
+                                <a href="../mcpoe/proyectos/front/index.html" target="_blank">
+                                    <img class="img-portfolio img-responsive fear" src="img/graphics.jpg" alt="sitio web de graficas e indicadores">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                    <h4 class="subtle">Diseños responsivos:</h4>
+                        <div class="col-md-6">
+                        <div class="portfolio-item divloco">
+                            <a href="https://mcpoe.github.io/dermosproject/" target="_blank">
+                                <img class="img-portfolio img-responsive fear" src="img/dermos.png" alt="Sitio Web Dermos">
+                            </a>
+                        </div>
+                    </div><div class="col-md-6">
+                        <div class="portfolio-item divloco">
+                            <a href="https://mcpoe.github.io/mxborder/" target="_blank">
+                                <img class="img-portfolio img-responsive fear" src="img/mxborder.png" alt="Sitio web MX CrossBorder">
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                    <hr class="small">
+                    <h2 class="subtitulo">¿Cómo puedo ayudarte con tu idea?</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--IDEAS -->
+
+    <aside id="about" class="callout2">
+        <div class="text-vertical-center">
+            <h1>Creo en el poder de Crear</h1>
+        </div>
+    </aside>
+
+<!--¿QUIÉN SOY?-->
+
+    <section class="aboutme">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 text-center">
+                    <h2 class="subtitulo">Y a todo esto... ¿quién soy yo?</h2>
+                </div>
+                <div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1">
+                    <p class="mtop">Me llamo <b>Maciel Porraz</b>, tengo 30 años, nací y crecí en la Ciudad de México y encontré una aventura de vida en Tijuana, amante de los animales (tengo 2 perrhijas), los libros y el cine. <br><br>Me apasiona crear y aprender, soy una todóloga en potencia que no teme meterse con diseño, marketing, comunicación, letras, social media y programación; algo workaholic a veces pero disfruto viajar, conocer y tener nuevas experiencias. Puedo ser un poco terca o alguien que no se da por vencido (hay una línea muy delgada en ello).<br><br> Trato de no tomarme las cosas personales, creo firmemente que de cada experiencia (positiva o negativa) se puede aprender. Me encanta ser parte de una comunidad y un equipo de trabajo, me gusta la idea de compartir el conocimiento y aprender de manera colectiva. Soy un alma polímata, con diversas pasiones y entre ellas aquí estoy, el mundo digital es tan variado y extenso, cada día cambia, ¡jamás se acaba! Es un mundo que siempre está en constante movimiento y con el cual se pueden hacer cosas asombrosas, me encanta formar parte de él.</p>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="mypic">
+                        <img src="img/yoyo.png" alt="mcpoe" class="imgen circule" id="selfie" style="width:100%">
+                        <div class="middles">
+                            <div class="texta">¡Esta soy yo!</div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+<!--CITAS (DE FRASES, NO DE OTRAS) -->
+
+    <section id="contact" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>"Me agrada la gente loca</h2>
+                    <p class="lead">Loca por vivir, loca por amar, loca por perseguir sus sueños..."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--SECCIÓN DE CONTACTO -->
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="subtitulo">¿Quieres stalkearme?</h2>
+                    <hr class="small">
+                    <h4 id="nombre"><strong>Maciel Porraz</strong></h4>
+                    <div class="big-text">
+                        <p>Tijuana, B.C.<br>(y nómada de la vida)</p>
+                        <ul class="list-unstyled">
+                            <li><a href="callto://525610902565"><i class="fa fa-phone fa-fw"></i> (55) 1090-2565</a></li>
+                            <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:maciel.porraz@gmail.com">maciel.porraz@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <br>
+                    <ul class="list-inline">
+                        <hr class="small">
+                        <h4>¿Estás en tu celular? ¡Envíame un Whatsapp!</h4><br>
+                        <li>
+                            <a href="whatsapp://send?text=¡Vi tu portafolio y quiero conocerte!&phone=+5215610902565&abid=+5215610902565">
+                                <div id="ico4">
+                                    <i class="fa fa-whatsapp fa-fw fa-5x"></i>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="finite">¡Espero saber de ti pronto!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--FOOTER-->
+
+    <footer class="fin">
+        <p class="text-center">Derechos Reservados &copy; McPoe 4EVER</p>
+        <hr class="small">
+    </footer>
+
+<!--LIBRERIAS DE JS -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+    // Para cerrar el menú lateral
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Para abrir el menú lateral
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Script para redirigir con scroll a la sección elegida
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
 </html>
