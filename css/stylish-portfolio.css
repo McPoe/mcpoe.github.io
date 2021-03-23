@@ -1,11 +1,3 @@
-/*!
- * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
-/* Global Styles */
-
 @import url(https://fonts.googleapis.com/css?family=Montez);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500);
 
@@ -14,13 +6,25 @@ h1#title {
     font-size: 9em; 
 }
 
-h2.subtitulo{
+h1#title2 { 
     font-family: 'Montez', cursive;
-    font-size: 4em;
+    font-size: 9em; 
+    color: #280189 !important;
+    text-shadow: #8BC44A 1px 5px 2px;
+}
+
+h3.secntitle{
+   text-shadow: #280189 1px -2px 2px;
+}
+
+h3.subtitulo{
+    font-family: 'Montserrat', cursive;
+    font-size: 2em;
+    color: #FFF !important;
 }
 
 h4#nombre{ 
-    font-family: 'Montez', cursive;
+    font-family: 'Montserrat', cursive;
     font-size: 4.5em;
     color: #3B253F;
     padding-top: .4em;
@@ -82,6 +86,7 @@ body {
 
 hr.small {
     max-width: 100px;
+    padding-top: 0px;
 }
 
 /* Side Menu */
@@ -458,20 +463,21 @@ div#ico4:hover{
 }
 
 .big-text{
-    font-size: 1.6em;
+    font-size: 1.2em;
 }
 
 .aboutme{
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding: 50px 0;
+}
+
+.skills p{
+    font-size: 1.1em;
 }
 
 .mtop{
     margin-top: 3em;
     text-align: justify;
-}
-#selfie{
-    margin-top: 5em;
 }
 
 .pbig{
@@ -480,54 +486,32 @@ div#ico4:hover{
 
 .pmiddle{
     font-size: 1.2em;
+    color: #FFF
 }
 
 .subtle{
     font-size: 1.7em;
 }
 
-.circule:hover{
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-.circule:hover, div.hover_effect {
-    transform: rotate(720deg);
-    clip:rect(0px, 150px, 0px, 150px);
-    border-radius: 50%;
-}
-
-.mypic {
-    position: relative;
+.card {
     width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.card:hover .img-top {
+    display: inline;
 }
 
-.imgen {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-.middles {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
-}
-
-.mypic:hover .imgen {
-  opacity: 0.3;
-}
-
-.mypic:hover .middles {
-  opacity: 1;
+.card img {
+    max-width: 100%;
+    border-radius: 50px; 
 }
 
 .texta {
@@ -537,6 +521,11 @@ div#ico4:hover{
   font-family: 'Montez', cursive;
   padding: 64px 32px;
   border-radius: 50%;
+}
+
+.textaboutme{
+    margin-top: 30px;
+    padding-right: 100px;
 }
 
 .finite {
@@ -559,3 +548,122 @@ div#ico4:hover{
  -moz-transform: rotate(-15deg);
  -o-transform: rotate(-15deg);
 }
+
+.container_box{
+    background-color: #78c143;
+    width: 28vw;
+    height: fit-content;
+}
+
+.port_container{
+    text-align: center;
+    padding: 2em 5vw;
+}
+
+.btn-portweb{
+    border-radius:42px;
+    cursor:pointer;
+    font-size:17px;
+    padding:15px 25px;
+    text-decoration:none;
+    background: linear-gradient(137deg, rgba(9,144,0,1) 0%, rgba(51,0,129,1) 50%, rgba(0,157,255,1) 100%);
+    color: #FFF !important;
+}
+
+.btnweb{
+    margin-top: -170px;
+}
+
+.webimg{
+    max-width: 100%;
+}
+
+.parrafo{
+    padding: 0px 150px;
+}
+
+.frame{
+    width: 90%;
+    color: #00000001;
+}
+
+.framebtn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 30%;
+    opacity: 50%;
+}
+
+.frame:after{
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.frame:hover{
+    opacity: 50%;
+    color: #000;
+}
+
+
+div#frame1{
+    background-image: url(imgs/VOI_BANNER.png);
+}
+
+#frame2{
+    background-image: url("VOI_BANNER.png");
+}
+
+
+
+
+@media(max-width: 991px) {
+    .container_box{
+        width: 45vw;
+    }
+
+    .port_container{
+        padding: 5em 3vw;
+    }
+
+    .parrafo{
+    padding: 0px 80px;
+    }
+
+    .textaboutme{
+    padding-right: 0px;
+    }  
+
+    .resptitle{
+    text-align: center;
+ }
+
+}
+
+@media(max-width: 768px) {
+
+.btnweb{
+    margin-top: -150px;
+}
+
+.parrafo{
+    padding: 0px 40px;
+}
+
+.textaboutme{
+    padding-right: 0px;
+}
+ .card{
+    width: 30%;
+    left: 35%;
+ }
+
+ .resptitle{
+    text-align: center;
+ }
+
+}
+
+
