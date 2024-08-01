@@ -6,17 +6,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Egresada de Laboratoria México. Desarrollo y diseño de sitios web responsivos con base HTML, CSS y JS. Creatividad e innovación sin límites.">
+    <meta name="description" content="Creatividad e innovación, ambrosía para el emprendedor.">
     <meta name="author" content="Maciel Porraz">
 
     <title>McPoe! Creative Designer Experience</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/stylish-portfolio.css" rel="stylesheet">
-    <link href="css/fonts.css" rel="stylesheet" type="text/css">
-
+    <link href="css/modales.css" rel="stylesheet" type="text/css">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     <link rel="icon" href="ball.ico">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -60,8 +62,8 @@
 
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1 id="title">McPoe</h1>
-            <h3>Creative Designer Experience</h3>
+            <h1 id="title">Maciel P.</h1>
+            <h3 style="text-shadow: 0px 4px 1px #280189">Creative Designer Experience</h3>
             <br>
         </div>
     </header>
@@ -72,8 +74,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Me gustan los retos.</h2>
-                    <p class="lead">Si no lo intento, ¿cómo puedo decir que no soy capaz?<br>Hay que dar el salto y esforzarse para lograrlo.</p>
+                    <h2 style="color: #FFFFFF; text-shadow: #280189 2px 2px 5px;" >Me gustan los retos.</h2>
+                    <p class="lead" style="color: #FFFFFF;">Si no lo intento, ¿cómo puedo decir que no soy capaz?<br><font style="font-style: italic;";>Hay que dar el salto y esforzarse para lograrlo.</font></p>
                 </div>
             </div>
         </div>
@@ -84,394 +86,563 @@
     <section class="skills bg-primary">
         <div class="port_container">
             <div class="row text-center">
-                <div class="col-lg-12 col-md-12">
-                    
+                <div class="col-lg-12 col-md-12 text-center">
                     <div>
-                        <h2 style="font-family: 'Montez', cursive; font-size: 5em; margin-top: 50px;">¿Cómo puedo ayudarte con tu idea?</h2>
-                        <hr style="width: 50%; margin-top: -10px;">
-                        <h3 class="subtitulo" style="margin-top: 50px; text-shadow: 0px 3px 5px #673aB7;">Desarrollo Web</h3>
-                        <p class="parrafo" style="margin-bottom: -90px">Soy egresada de la primera generación de <a href="https://www.laboratoria.la/" style="color: #FFE521" target="_blank">&#60;Laboratoria en México&#62;</a>, por lo que a lo largo de mi experiencia laboral he tenido la oportunidad de crear diferentes sitios y páginas web.<br>¿Buscas un sitio dinámico, responsivo y profesional? Estos son algunos de mis bebés:</p>
+                        <h2 style="font-family: 'Satisfy'; font-size: 3.5em; margin-top: 44px; color: #280189">¿Cómo puedo ayudarte con tu idea?</h2>
                     </div> 
+                    <hr style="width: 50%; margin: 0 !important">
+                    <div class="section">
+                        
+                        <h3 class="subtitulo gradiente1" style="margin-top: 44px; margin-bottom:22px;">Creatividad y Diseño</h3>
 
+                        <p  class="parrafo" style="text-align: justify center;">Comencé a trabajar con plataformas y aprender reglas de diseño creando contenido multimedia para publicidad y redes sociales. Tomé talleres y cursos explorando diferentes estilos y trabajado con herramientas como la IA, para crear contenido más atractivo y que desafía los límites de lo que somos capaces de hacer.<br><b style="font-style: italic; color: #">Me gustan los retos que exploran lo que somos capaces de lograr, y aún queda mucho por aprender.</b></p>
+                        <hr class="small">
 
-                    <div class="row" style="margin-bottom: 150px;">
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                            <div class="service-item" id="cb1" style="margin-top:120px;">
-                                <a href="https://mcpoe.github.io/mxborder" target="_blank">
-                                    <div class="container_box" style="padding-top: 120px; background-color: #28018950;">
-                                        <div id="imgweb1">
-                                            <img src="img/mxborder.png" class="webimg">
+                        <div class="row" style="margin-top: 10px; margin-bottom: 60px;">
+                            
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #28018930">
+                                <a class="img_trigger" data-modal="modal1" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/VOI_MAIL.jpg); background-size: 100%; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
                                         </div>
                                     </div>
-                                    <p class="pmiddle">MX CrossBorder</p>
-                                    <div id="btn1" class="btnweb">
-                                        <div class="btn btn-portweb">Visitar Demo-reel</div>
+                                </a>
+                                <div id="modal1" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal1" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/VOI_MAIL.jpg" alt="VOI MAIL">
+                                        <p style="color: #280189;">Creación de Email para Volaris con código.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #5CD6AD30">
+                                <a class="img_trigger" data-modal="modal2" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/VOI_MAILCI.png); background-size: 100%; margin-bottom: 0px !important;"> 
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
                                     </div>
                                 </a>
+                                <div id="modal2" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal2" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/VOI_MAILCI.png" alt="VOI MAIL">
+                                        <p style="color: #280189;">Emails responsivos que se adaptan al dispositivo.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #28018930">
+                                <a class="img_trigger" data-modal="modal3" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/VOI_MAILINT.jpeg); background-size: 50%; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal3" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal3" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/VOI_MAILINT.jpeg" alt="VOI MAIL">
+                                        <p style="color: #280189;">Temporizadores integrados en emails.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #5CD6AD30">
+                                <a class="img_trigger" data-modal="modal4" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/VOI_ANIM.gif); background-size: 100%; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal4" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal4" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/VOI_ANIM.gif" alt="VOI MAIL">
+                                        <p style="color: #280189;">Primeras pruebas de GIF, secuencia.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #28018930">
+                                <a class="img_trigger" data-modal="modal5" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/VOI_BANNER.png); background-size: 200%; background-position: right; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal5" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal5" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/VOI_BANNER.png" alt="VOI MAIL">
+                                        <p style="color: #280189;">Prueba de diferentes estilos de diseño.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #5CD6AD30">
+                                <a class="img_trigger" data-modal="modal6" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/VOI_FBANNER.png); background-size: 100%; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal6" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal6" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/VOI_FBANNER.png" alt="VOI MAIL">
+                                        <p style="color: #280189;">Edición de fotografía y adaptaciones para ads.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #FF006A30">
+                                <a class="img_trigger" data-modal="modal7" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/DYN_ANIM.gif); background-size: 100%; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal7" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal7" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/DYN_ANIM.gif" alt="VOI MAIL">
+                                        <p style="color: #280189;">Guía de uso a través de un GIF sencillo.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #D2B0FF60">
+                                <a class="img_trigger" data-modal="modal8" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/DYN_ECARD16N.jpg); background-size: 150%; background-position: top center; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal8" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal8" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/DYN_ECARD16N.jpg" alt="VOI MAIL">
+                                        <p style="color: #280189;">Diseños temáticos/Enfocados a una comunicación.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #FF006A30">
+                                <a class="img_trigger" data-modal="modal9" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/DYN_FBAE.png); background-size: 100%; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal9" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal9" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/DYN_FBAE.png" alt="VOI MAIL">
+                                        <p style="color: #280189;">Edición de vectores para crear contenido para redes.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #D2B0FF60">
+                                <a class="img_trigger" data-modal="modal10" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/DYN_FBAE2.png); background-size: 120%; background-position: center center; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal10" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal10" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/DYN_FBAE2.png" alt="VOI MAIL">
+                                        <p style="color: #280189;">Adaptación de la comunicación a temporalidad.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #FF006A30">
+                                <a class="img_trigger" data-modal="modal11" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/DYN_ECARD_BS.jpg); background-size: 140%; background-position: right; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal11" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal11" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/DYN_ECARD_BS.jpg" alt="VOI MAIL">
+                                        <p style="color: #280189;">Boletines internos y para asociados binacionales.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #D2B0FF60">
+                                <a class="img_trigger" data-modal="modal12" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/DYN_ECARDTHXG.jpg); background-size: 150%; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal12" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal12" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/DYN_ECARDTHXG.jpg" alt="VOI MAIL">
+                                        <p style="color: #280189;">Uso de personajes/ilustraciones.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #28018930">
+                                <a class="img_trigger" data-modal="modal13" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/FRIC_INSTA.png); background-size: 120%; background-position: center; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal13" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal13" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/FRIC_INSTA.png" alt="VOI MAIL">
+                                        <p style="color: #280189;">Capacidad de adaptarme a diferentes estilos.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #5CD6AD30">
+                                <a class="img_trigger" data-modal="modal14" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/OWN_FB.png); background-size: 100%; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal14" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal14" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/OWN_FB.png" alt="VOI MAIL">
+                                        <p style="color: #280189;">Pruebas de colores, formas y composición.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #28019030">
+                                <a class="img_trigger" data-modal="modal15" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/YAVAS_FBSQUAREV2.jpg); background-size: 150%; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal15" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal15" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/YAVAS_FBSQUAREV2.jpg" alt="VOI MAIL">
+                                        <p style="color: #280189;">Colaboración en concepto de campaña Volaris Ruta Tijuana.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #5CD6AD30">
+                                <a class="img_trigger" data-modal="modal16" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/YAVAS_PAPER.jpg); background-size: 100%; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal16" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal16" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/YAVAS_PAPER.jpg" alt="VOI MAIL">
+                                        <p style="color: #280189;">Mi diseño en el periódico de Tijuana :D</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #28018930">
+                                <a class="img_trigger" data-modal="modal17" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/DP_UBIC.jpg); background-size: 100%; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal17" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal17" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/DP_UBIC.jpg" alt="VOI MAIL">
+                                        <p style="color: #280189;">Diseño para Plaza Distrito Playas.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #5CD6AD30">
+                                <a class="img_trigger" data-modal="modal18" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/DP_SHARE.jpg); background-size: 100%; background-position: top center; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal18" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal18" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/DP_SHARE.jpg" alt="VOI MAIL">
+                                        <p style="color: #280189;">Contenido creativo para motivar la interacción.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #FF006A30">
+                                <a class="img_trigger" data-modal="modal19" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/OWN_DICC.png); background-size: 120%; background-position: top center; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal19" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal19" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/OWN_DICC.png" alt="VOI MAIL">
+                                        <p style="color: #280189;">Diseño editorial para diccionario de emprendedores.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #D2B0FF60">
+                                <a class="img_trigger" data-modal="modal20" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/HAM_SMALL.jpg); background-size: 110%; background-position: center center; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal20" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal20" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/HAM_SMALL.jpg" alt="VOI MAIL">
+                                        <p style="color: #280189;">Idea, concepto y creación de contenido.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #FF006A30">
+                                <a class="img_trigger" data-modal="modal21" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/HAM_WCHALLOWEEN.jpg); background-size: 120%; background-position: center center; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal21" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal21" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/HAM_WCHALLOWEEN.jpg" alt="VOI MAIL">
+                                        <p style="color: #280189;">Idea 1 de 5, campaña temporal, copy y diseño combinando temática de cultura del terror.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #D2B0FF60">
+                                <a class="img_trigger" data-modal="modal22" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/HAM_ANIMWC.gif); background-size: 100%; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal22" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal22" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/HAM_ANIMWC.gif" alt="VOI MAIL">
+                                        <p style="color: #280189;">Uso de diferentes estilos. Estilo videojuego.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #FF006A30">
+                                <a class="img_trigger" data-modal="modal23" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/HAM_PDAY.jpg); background-size: 100%; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal23" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal23" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/HAM_PDAY.jpg" alt="VOI MAIL">
+                                        <p style="color: #280189;">Uso de diferentes estilos.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #D2B0FF60">
+                                <a class="img_trigger" data-modal="modal24" onclick="openModal()">
+                                    <div class="frame thumbnail" style="background-image: url(imgs/OWN_PREMIO.gif); background-size: 100%; margin-bottom: 0px !important;">
+                                        <div class="framebtn">
+                                            <i class="fa fa-5x fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="modal24" class="modal">
+                                    <div class="modal-content">
+                                        <button class="close" data-modal="modal24" onclick="closeModal()" style="background-color: red;"><i class="fa fa-times" aria-hidden="true" style="color: #FFF;"></i></button>
+                                        <img src="imgs/OWN_PREMIO.gif" alt="VOI MAIL">
+                                        <p style="color: #280189;">Creación desde cero de premio físico. Diseño y trato con proveedor.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <hr style="width: 50%; margin: 0 !important"> 
+                    <div class="section">
+                        <div style="margin-bottom: 20px;">
+                            <h3 class="subtitulo gradiente2" style="margin-top: 44px; margin-bottom: 22px;">Desarrollo Web</h3>
+                            <p class="parrafo" style="text-align: center; color: #181215">Soy egresada de <a href="https://www.laboratoria.la/" style="color: #181215; background-color: #FFE521" target="_blank">&#60;Laboratoria México&#62;</a>, donde me gradué como <br>Desarrolladora Web, por lo que soy capaz de construir desde emails, landing pages hasta sitios web completos.<br><b>¿Buscas un sitio dinámico, responsivo y profesional? Esto lo he construido con código:</b></p>
+                        </div> 
+                        <div class="row" style="margin-bottom: 120px;">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                                <div class="service-item" id="cb1" style="margin-top:20px;">
+                                    <a href="https://mcpoe.github.io/mxborder" target="_blank">
+                                        <div class="container_box" style="padding-top: 50px; background-color: #28018970;">
+                                            <div id="imgweb1">
+                                                <img src="img/mxborder.png" class="webimg">
+                                            </div>
+                                        </div>
+                                        <p class="pmiddle">MX CrossBorder</p>
+                                        <div id="btn1" class="btnweb">
+                                            <div class="btn btn-portweb">Visitar Demo-reel</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                                <div class="service-item" id="cb2" style="margin-top:20px;">
+                                    <a href="https://mcpoe.github.io/dermosproject/" target="_blank">
+                                        <div  class="container_box"style="padding-top: 50px; background-color: #5CD6AD;">
+                                            <div id="imgweb2">
+                                                <img src="img/dermos.png" class="webimg">
+                                            </div>
+                                        </div>
+                                        <p class="pmiddle">Clínica Dermos</p>
+                                        <div id="btn2" class="btnweb">
+                                            <div class="btn btn-portweb">Visitar Demo-reel</div>  
+                                        </div>    
+                                    </a>
+                                </div>
                             </div>
                             
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                                <div class="service-item" id="cb3" style="margin-top:20px;">
+                                    <a href="https://mcpoe.github.io/boxesandmore" target="_blank">
+                                        <div class="container_box" style="padding-top: 50px; background-color: #FF006A70;">
+                                            <div id="imgweb3">
+                                                <img src="img/boxes.png" class="webimg">
+                                            </div>
+                                        </div>
+                                        <p class="pmiddle">Boxes & More</p>
+                                        <div id="btn3" class="btnweb">
+                                            <div class="btn btn-portweb">Visitar Demo-reel</div>  
+                                        </div>    
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                                <div class="service-item" id="cb4" style="margin-top:100px;">
+                                    <a href="proyectos/petbioresponsive/index.html" target="_blank">
+                                        <div class="container_box" style="padding-top: 50px; background-color: #FF006A70;">
+                                            <div id="imgweb6">
+                                                <img src="img/petbio.png" class="webimg">
+                                            </div>
+                                        </div>
+                                        <p class="pmiddle">PetBio StartUp</p>
+                                        <div id="btn6" class="btnweb">
+                                            <div class="btn btn-portweb">Visitar Demo-reel</div>  
+                                        </div>    
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                                <div class="service-item" id="cb5" style="margin-top:100px;">
+                                    <a href="https://mcpoe.github.io/aenew/" target="_blank">
+                                        <div class="container_box" style="padding-top: 50px; background-color: #5CD6AD;">
+                                            <div id="imgweb5">
+                                                <img src="img/aenew.png" class="webimg">
+                                            </div>
+                                        </div>
+                                        <p class="pmiddle">AutoEvalua Web</p>
+                                        <div id="btn5" class="btnweb">
+                                            <div class="btn btn-portweb">Visitar Demo-reel</div>  
+                                        </div>    
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                                <div class="service-item" id="cb6" style="margin-top:100px;">
+                                    <a href="proyectos/front/index.html" target="_blank">
+                                        <div class="container_box" style="padding-top: 50px; background-color: #28018970;">
+                                            <div id="imgweb4">
+                                                <img src="img/frontjquery.png" class="webimg">
+                                            </div>
+                                        </div>
+                                        <p class="pmiddle">Indicators w/jQuery</p>
+                                        <div id="btn4" class="btnweb">
+                                            <div class="btn btn-portweb">Visitar Demo-reel</div>  
+                                        </div>    
+                                    </a>
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                            <div class="service-item" id="cb2" style="margin-top:120px;">
-                                <a href="https://mcpoe.github.io/dermosproject/" target="_blank">
-                                    <div  class="container_box"style="padding-top: 120px; background-color: #02078750;">
-                                        <div id="imgweb2">
-                                            <img src="img/dermos.png" class="webimg">
-                                        </div>
-                                    </div>
-                                    <p class="pmiddle">Clínica Dermos</p>
-                                    <div id="btn2" class="btnweb">
-                                        <div class="btn btn-portweb">Visitar Demo-reel</div>  
-                                    </div>    
-                                </a>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                            <div class="service-item" id="cb3" style="margin-top:120px;">
-                                <a href="https://mcpoe.github.io/boxesandmore" target="_blank">
-                                    <div class="container_box" style="padding-top: 120px; background-color: #19026350;">
-                                        <div id="imgweb3">
-                                            <img src="img/boxes.png" class="webimg">
-                                        </div>
-                                    </div>
-                                    <p class="pmiddle">Boxes & More</p>
-                                    <div id="btn3" class="btnweb">
-                                        <div class="btn btn-portweb">Visitar Demo-reel</div>  
-                                    </div>    
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                            <div class="service-item" id="cb4" style="margin-top:120px;">
-                                <a href="proyectos/front/index.html" target="_blank">
-                                    <div class="container_box" style="padding-top: 120px; background-color: #28018950;">
-                                        <div id="imgweb4">
-                                            <img src="img/frontjquery.png" class="webimg">
-                                        </div>
-                                    </div>
-                                    <p class="pmiddle">JQuery Indicators</p>
-                                    <div id="btn4" class="btnweb">
-                                        <div class="btn btn-portweb">Visitar Demo-reel</div>  
-                                    </div>    
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                            <div class="service-item" id="cb5" style="margin-top:120px;">
-                                <a href="https://mcpoe.github.io/aenew/" target="_blank">
-                                    <div class="container_box" style="padding-top: 120px; background-color: #02078750;">
-                                        <div id="imgweb5">
-                                            <img src="img/aenew.png" class="webimg">
-                                        </div>
-                                    </div>
-                                    <p class="pmiddle">AutoEvalua</p>
-                                    <div id="btn5" class="btnweb">
-                                        <div class="btn btn-portweb">Visitar Demo-reel</div>  
-                                    </div>    
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                            <div class="service-item" id="cb6" style="margin-top:120px;">
-                                <a href="proyectos/petbioresponsive/index.html" target="_blank">
-                                    <div class="container_box" style="padding-top: 120px; background-color: #19026350;">
-                                        <div id="imgweb6">
-                                            <img src="img/petbio.png" class="webimg">
-                                        </div>
-                                    </div>
-                                    <p class="pmiddle">Petbio StartUp</p>
-                                    <div id="btn6" class="btnweb">
-                                        <div class="btn btn-portweb">Visitar Demo-reel</div>  
-                                    </div>    
-                                </a>
-                            </div>
-                        </div>
+                    </div>                    
+                    <hr style="width: 90%; margin-top: 20px;">
+                    <div class="section">
+                        <h3 class="subtitulo gradiente3" style="margin-bottom: 30px; text-shadow: 0px 0px 2px #ae1656; background-color: #FF006A !important">Aprendiendo siempre</h3>
+                        <p style="margin-bottom: 40px; color: #181215; font-size: 1.4em;">Todo suma, mi enfoque está claro pero siempre aspiro a más. UX, Marketing, Social Media, Copywriting y otros cursos sobre desarrollo personal, emprendedurismo, ventas, administración y más, abren mi capacidad creativa y habilidades a una mayor perspectiva.</p>
+                            
                     </div>
-
-
-                    <hr style="width: 90%; margin-top: 100px;">
-
-                    <h3 class="subtitulo" style="margin-top: 50px; text-shadow: 2px 2px 1px #4d9000">Diseño Digital</h3>
-                    <p>Siempre quise estudiar Diseño, no obstante, la vida me llevó por otro camino.<br> Hoy, envuelta en el mundo digital, la misma vida me llevó de regreso al Diseño.<br>¿Soy buena? No lo sé, pero me gustan los retos, aprender y demostrar de lo que soy capaz.</p>
-                    <hr class="small">
-
-                    <div class="row" style="margin-top: 10px; margin-bottom: 100px;">
-                        
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #89018950">
-                            <a class="img_trigger" href="#" data-target="#frameimg1" data-toggle="modal">
-                                <div id="frame1" class="frame" style="background-image: url(imgs/VOI_MAIL_R1.png);background-size: 100%;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #19026350">
-                            <a class="img_trigger" href="#" data-target="#frameimg2" data-toggle="modal">
-                                <div id="frame2" class="frame" style="background-image: url(imgs/VOI_MAIL.jpg); background-size: 100%;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #12078750">
-                            <a class="img_trigger" href="#" data-target="#frameimg3" data-toggle="modal">
-                                <div id="frame3" class="frame" style="background-image: url(imgs/VOI_MAILCI.png); background-size: 100%;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #23031150">
-                            <a class="img_trigger" href="#" data-target="#frameimg4" data-toggle="modal">
-                                <div id="frame4" class="frame" style="background-image: url(imgs/VOI_MAILV2.jpeg); background-size: 120%; background-position: center center;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #18121550">
-                            <a class="img_trigger" href="#" data-target="#frameimg5" data-toggle="modal">
-                                <div id="frame5" class="frame" style="background-image: url(imgs/VOI_MAILV3.jpeg); background-size: 50%;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #28018950">
-                            <a class="img_trigger" href="#" data-target="#frameimg6" data-toggle="modal">
-                                <div id="frame6" class="frame" style="background-image: url(imgs/VOI_ANIM.gif); background-size: 100%;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #18121550">
-                            <a class="img_trigger" href="#" data-target="#frameimg7" data-toggle="modal">
-                                <div id="frame7" class="frame" style="background-image: url(imgs/VOI_BANNER.png); background-size: 200%; background-position: right;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #23031150">
-                            <a class="img_trigger" href="#" data-target="#frameimg8" data-toggle="modal">
-                                <div id="frame8" class="frame" style="background-image: url(imgs/VOI_BANNER.jpg); background-size: 200%;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #12078750">
-                            <a class="img_trigger" href="#" data-target="#frameimg9" data-toggle="modal">
-                                <div id="frame9" class="frame" style="background-image: url(imgs/VOI_FBANNER.png); background-size: 100%;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #19026350">
-                            <a class="img_trigger" href="#" data-target="#frameimg10" data-toggle="modal">
-                                <div id="frame10" class="frame" style="background-image: url(imgs/VOI_ANIMADS.gif); background-size: 100%; background-position: bottom;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #89018950">
-                            <a class="img_trigger" href="#" data-target="#frameimg11" data-toggle="modal">
-                                <div id="frame11" class="frame" style="background-image: url(imgs/DYN_ECARDTHXG.jpg); background-size: 150%;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #19026350">
-                            <a class="img_trigger" href="#" data-target="#frameimg12" data-toggle="modal">
-                                <div id="frame12" class="frame" style="background-image: url(imgs/DYN_ECARD.jpg); background-size: 100%;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #12078750">
-                            <a class="img_trigger" href="#" data-target="#frameimg13" data-toggle="modal">
-                                <div id="frame13" class="frame" style="background-image: url(imgs/DYN_ECARD16N.jpg); background-size: 150%; background-position: top center;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #23031150">
-                            <a class="img_trigger" href="#" data-target="#frameimg14" data-toggle="modal">
-                                <div id="frame14" class="frame" style="background-image: url(imgs/DYN_FBAE.png); background-size: 100%;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #18121550">
-                            <a class="img_trigger" href="#" data-target="#frameimg15" data-toggle="modal">
-                                <div id="frame15" class="frame" style="background-image: url(imgs/DYN_FBAE2.png); background-size: 120%; background-position: center center;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #28018950">
-                            <a class="img_trigger" href="#" data-target="#frameimg16" data-toggle="modal">
-                                <div id="frame16" class="frame" style="background-image: url(imgs/DYN_ECARD_BS.jpg); background-size: 140%; background-position: right;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #18121550">
-                            <a class="img_trigger" href="#" data-target="#frameimg17" data-toggle="modal">
-                                <div id="frame17" class="frame" style="background-image: url(imgs/DYN_ANIM.gif); background-size: 100%;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #23031150">
-                            <a class="img_trigger" href="#" data-target="#frameimg18" data-toggle="modal">
-                                <div id="frame18" class="frame" style="background-image: url(imgs/FRIC_INSTA2.png); background-size: 120%; background-position: bottom;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #12078750">
-                            <a class="img_trigger" href="#" data-target="#frameimg19" data-toggle="modal">
-                                <div id="frame19" class="frame" style="background-image: url(imgs/FRIC_INSTA.png); background-size: 110%; background-position: center;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #19026350">
-                            <a class="img_trigger" href="#" data-target="#frameimg20" data-toggle="modal">
-                                <div id="frame20" class="frame" style="background-image: url(imgs/OWN_FB.png); background-size: 100%;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #12078750">
-                            <a class="img_trigger" href="#" data-target="#frameimg21" data-toggle="modal">
-                                <div id="frame21" class="frame" style="background-image: url(imgs/YAVAS_INSTA.png); background-size: 200%; background-position: right;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #23031150">
-                            <a class="img_trigger" href="#" data-target="#frameimg22" data-toggle="modal">
-                                <div id="frame22" class="frame" style="background-image: url(imgs/YAVAS_FBSQUARE.png); background-size: 100%;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #18121550">
-                            <a class="img_trigger" href="#" data-target="#frameimg23" data-toggle="modal">
-                                <div id="frame23" class="frame" style="background-image: url(imgs/YAVAS_FBSQUAREV2.jpg); background-size: 150%;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" style="padding-left:0px; padding-right:0px; background-color: #28018950">
-                            <a class="img_trigger" href="#" data-target="#frameimg24" data-toggle="modal">
-                                <div id="frame24" class="frame" style="background-image: url(imgs/YAVAS_PAPER.jpg); background-size: 100%;">
-                                    <div class="framebtn">
-                                        <i class="fa fa-5x fa-eye"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                    </div>
-
-
-
-                    <hr style="width: 90%; margin-top: 100px;">
-
-                    <h3 class="subtitulo" style="margin-top: 50px; text-shadow: 2px 2px 1px #648bff">Y lo que viene...</h3>
-                    <p style="margin-bottom: 40px;">Soy un alma polímata, creo que todo aporta.<br>UX, Marketing, Copywriting y Análisis de Datos, han sido complementarios en este camino, <br>por lo que busco constantemente talleres y cursos sobre estos temas. Y sobre los que aparezcan en el camino.</p>
-                    <hr class="small" style="margin-bottom: 50px;">
-                    <hr style="width: 90%; margin-bottom: 90px;">
 
                 </div>
 
@@ -494,14 +665,14 @@
             <div class="row">
                 <div class="col-lg-2 col-md-5 col-sm-6 col-xs-12">
 
-                    <div class="card" style="margin-top: 20px;">
-                        <img src="imgs/MCME.jpg">
-                        <img src="imgs/MCME2.jpg" class="img-top">
+                    <div class="card" style="margin-top: 10px;">
+                        <img src="imgs/MCME22.png">
+                        <img src="imgs/MCMEE.png">
                     </div>
                 </div>
                 <div class="col-lg-10 col-md-7 col-sm-6 col-xs-12">
                     <h4 class="resptitle">Y a todo esto... ¿quién soy yo?</h4>
-                    <p class="textaboutme">Soy Maciel Porraz, tengo 32 años, nací y crecí en la Ciudad de México y encontré una aventura de vida en Tijuana, amante de los animales (tengo 2 canhijas), los libros, la comida y el cine. <br><br>Soy una ENTP a la que le apasiona crear y aprender, soy una todóloga en potencia que no teme meterse con diseño, marketing, comunicación, letras, social media y programación; algo workaholic a veces pero disfruto viajar, conocer, cocinar y tener nuevas experiencias.<br><br> Creo firmemente que aprendemos contantemente de cada experiencia que vivimos. He aprendido a ser parte de una comunidad que comparte conocimiento y aprende en conjunto. Soy un alma polímata, con diversas pasiones y entre ellas aquí estoy, el mundo digital es tan variado y extenso, cada día cambia, ¡jamás se acaba! En este mundo en constante movimiento, creo que aún se pueden hacer crear asombrosas y me encanta formar parte de él.</p>
+                    <p class="textaboutme">Soy Maciel Porraz, tengo 35 años, y desde hace 5 años vivo en Tijuana con 3 canhijas perras traviesas que me inspiran cada día. Con corazón creativo, he escrito desde mi infancia ganando algunos concursos menores.<br><br>Me apasiona crear y aprender, como desarrolladora web, pasé de trabajar en emailing y front-end, hacia crear diseño y ads, desenvolviéndome muy bien en animación y diseño digital. Creo que todo suma, mientras aprendia de marketing y redes sociales, encontraba cursos de storytelling y aprender a escribir con intención comercial. He hecho copys, formatos, redacciones y sitios web en inglés y español.<br><br> Mi intención ahora es usar toda esta experiencia para crear marcas visualmente atractivas, coherentes y únicas, poniendo a disposición de los que confíen en mi, mis conocimientos y versatilidad de estilos, con eclecticidad pero una intención de comunicación clara. Quiero crear para emprendedores, lograr que sus marcas crezcan, pero estoy muy consciente de los límites de mi trabajo, ya que yo me encargaré de que la marca se vea atractiva, pero las ventas y el éxito del negocio dependerán de la calidad y disponibilidad del producto/servicio.<br><br>Aprendemos de cada experiencia vivida. Hay cierta riqueza en compartir el conocimiento y hablar con la verdad siempre nos hace libres. No creo en las mentiras, yo creo en hacer todo de corazón y con la mejor intención, hippie, me llaman, quizá, pero creo que es una forma más tranquila de vivir la vida. Y una vida tranquila y en riqueza abundante, es lo que yo quiero.</p>
                 </div>
             </div>
         </div>
@@ -509,12 +680,12 @@
 
 <!--CITAS (DE FRASES, NO DE OTRAS) -->
 
-    <section id="contact" class="about">
+    <section id="contact" class="about22">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>"Me agrada la gente loca</h2>
-                    <p class="lead">Loca por vivir, loca por amar, loca por perseguir sus sueños..."</p>
+                    <h2 class="gradiente32" style="color: #FFFFFF; text-shadow: #280189 2px 2px 5px;">"Me agrada la gente loca</h2>
+                    <p class="lead gradiente33" style="color: #FFFFFF;">Loca por vivir, loca por amar, loca por perseguir sus sueños..."</p>
                 </div>
             </div>
         </div>
@@ -528,8 +699,8 @@
                 <div class="col-md-12 text-center">
                     <h2 class="subtitulo" style="margin-top: 100px;">¿Cómo puedo ayudarte?</h2>
                     <hr class="small">
-                    <h1 id="title2">McPoe</h1>
-                    <h3 class="secntitle">Creative Designer Experience</h3>
+                    <h1 id="title2">Maciel P.</h1>
+                    <h3 class="secntitle gradiente3">Creative Designer Experience</h3>
                     <div class="big-text">
                         <p>Tijuana, B.C.<br>(y con internet, el resto del mundo)</p>
                         <ul class="list-unstyled">
@@ -568,11 +739,19 @@
         <hr class="small">
     </footer>
 
+<!--FOOTER-->
+    
+
+
 <!--LIBRERIAS DE JS -->
 
     <script src="js/jquery.js"></script>
     <script src="js/transitions.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/modales.js"></script>
+    
+
+
 
     <script>
 
@@ -605,6 +784,8 @@
         });
     });
     </script>
+
+
 
 </body>
 
