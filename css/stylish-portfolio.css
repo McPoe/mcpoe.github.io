@@ -20,7 +20,7 @@ h1#title {
 
 h1#title2 { 
     font-family: 'Montez', cursive;
-    font-size: 9em; 
+    font-size: 7em; 
     color: #280189 !important;
     text-shadow: #8BC44A 1px 5px 2px;
 }
@@ -554,7 +554,7 @@ div#ico4:hover{
 
 .card img {
     max-width: 100%;
-    border-radius: 50px; 
+    border-radius: 40px 40px 15px 40px; 
 }
 
 .texta {
@@ -568,7 +568,6 @@ div#ico4:hover{
 
 .textaboutme{
     margin-top: 30px;
-    padding-right: 100px;
 }
 
 .finite {
@@ -699,9 +698,9 @@ div#frame1{
 .textaboutme{
     padding-right: 0px;
 }
- .card{
-    width: 30%;
-    left: 35%;
+
+// .card{
+    align-self: center;
  }
 
  .resptitle{
